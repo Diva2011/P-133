@@ -1,0 +1,70 @@
+body
+{
+    background-size: cover;
+    background-position: center;
+    font-family: 'caramel' , cursive;
+    font-weight: bolder;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+button
+{
+    float: right;
+    margin-top: 30px;
+    font-size: 35px !important;
+    background-color: aliceblue;
+    margin-right: 80px;
+}
+
+.status
+{
+    font-size: 50px !important;
+    color: red;
+    background-color: cornsilk;
+    font-weight: bold;
+}
+
+.detected{
+    font-size: 35px;
+    color: red;
+    background-color: bisque;
+}
+
+
+
+.list
+{
+    font-size: 35px;
+    color: Black;
+    background-color: lavenderblush;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.heading
+{
+    font-size: 100px !important; 
+    font-weight: 600;
+    text-decoration: underline 8px;
+}
+
+.footer
+{
+    width: 100%;
+    text-align: center;
+    text-align: 35px;
+    background-color: lavender;
+    z-index: 9999;
+    bottom: 0;
+    position: fixed;
+    line-height: 2.5;
+}
+
+canvas
+{
+    box-shadow: 10px 10px 15px grey;
+    margin-top: 200px;
+}
